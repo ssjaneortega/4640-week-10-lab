@@ -1,21 +1,6 @@
-# configure version of aws provider plugin
-# https://developer.hashicorp.com/terraform/language/terraform#terraform
-terraform {
-  required_providers {
-    aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
-    }
-  }
-}
-
-# Configure the AWS Provider
-provider "aws" {
-  region = "us-west-2"
-}
-
+# specify a project name
 locals {
-  project_name = "lab_week_9"
+  project_name = "lab_week_10"
 }
 
 # get the most recent ami for your packer ansible build
