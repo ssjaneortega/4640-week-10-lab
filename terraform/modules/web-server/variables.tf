@@ -28,5 +28,5 @@ variable "vpc_security_group_ids" {
 
 variable "subnet_id" {
 	description = "the subnet id"
-	type = string"
+	type = string
 }
