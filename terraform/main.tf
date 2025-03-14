@@ -131,12 +131,12 @@ module "web_server" {
 
 }
 
-output "instance_ip_address" {
+output "instance_ip" {
   description = "The public IP address of the instance"
   value       = module.web_server.instance_ip
 }
 
-output "instance_dns_name" {
+output "instance_dns" {
   description = "The public DNS name of the instance"
   value       = module.web_server.instance_dns
 }
